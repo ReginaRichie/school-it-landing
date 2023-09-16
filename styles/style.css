@@ -17,7 +17,7 @@ body {
     height: 100vh;
 }
 
-.main_block {
+.first_block {
     background-color: black;
     display: flex;
     justify-content: center;
@@ -30,17 +30,17 @@ body {
 }
 
 
-.main_block_img {
+.first_block_img {
     background-position: center;
     margin-top: 30px;
-    background-image: url("../images/main_block_img.png");
+    background-image: url("../images/first_block_img.png");
     background-size: 80%;
     width: 50%;
     height: 90%;
     background-repeat: no-repeat;
 }
 
-.main_block_text {
+.first_block_text {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -143,59 +143,13 @@ body {
 }
 
 .third_block {
-    background-color: #6270f2;
-    color: white;
-    display: flex;
-    justify-content: center;
-}
-
-.third_block_content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    gap: 50px;
-}
-
-.third_block h3 {
-margin: 0;
-font-size: 25px;
-}
-
-.persons {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 70px;
-}
-
-
-
-.person {
-    display: flex;
-    flex-direction: column;
-    max-width: 150px;
-    gap: 10px;
-}
-
-.person img {
-    border-radius: 50%;
-}
-
-.person h5 {
-    font-size: 18px;
-    margin: 0;
-}
-
-.fourth_block {
     background-color: #404ba6;
     color: white;
     display: flex;
     justify-content: center;
 }
 
-.fourth_block_content {
+.third_block_content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -262,7 +216,7 @@ font-size: 25px;
 }
 
 .schedule_card_timing div:first-child {
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgb(128, 128, 128);
 }
 
 .schedule_card:nth-child(even) .schedule_card_timing {
